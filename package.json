@@ -1,0 +1,26 @@
+{
+    "name": "mongodb-project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon -r dotenv/config src/index.js",
+        "test": "npx jest",
+        "prettier-check": "npx prettier --check .",
+        "prettier-write": "npx prettier --write ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "mongodb": "^4.5.0",
+        "mongoose": "^6.3.4",
+        "nodemon": "^2.0.16"
+    },
+    "devDependencies": {
+        "prettier": "2.6.2",
+        "supertest": "^6.2.3"
+    }
+}
